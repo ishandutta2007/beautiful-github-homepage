@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/*.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/ishandutta2007/beautiful-github-homepage"
+    }
+  ]
+}
