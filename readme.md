@@ -653,6 +653,10 @@ Choose from any of the [default themes](#themes)
 
 *   Gradient
 
+```Markdown
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+```
+
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
 
 *   Customizing stats card
