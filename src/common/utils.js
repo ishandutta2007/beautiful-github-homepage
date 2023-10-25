@@ -84,7 +84,7 @@ const renderError = (message, secondaryMessage = "") => {
     <text x="25" y="45" class="text">Something went wrong!${
       UPSTREAM_API_ERRORS.includes(secondaryMessage)
         ? ""
-        : " file an issue at https://tiny.one/readme-stats"
+        : " file an issue at https://t.ly/seJTg"
     }</text>
     <text data-testid="message" x="25" y="55" class="text small">
       <tspan x="25" dy="18">${encodeHTML(message)}</tspan>
