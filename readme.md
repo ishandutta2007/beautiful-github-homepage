@@ -639,6 +639,10 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ### Compact layout
 
+```Markdown
+![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
+```
+
 ![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
 
 ***
@@ -722,7 +726,7 @@ Choose from any of the [default themes](#themes)
 ### Gradient
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username={user-github-username}\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
 ```
 
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
@@ -769,9 +773,17 @@ Choose from any of the [default themes](#themes)
 
 ### Top languages
 
+```Markdown
+![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)
+```
+
 ![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)
 
-*   WakaTime card
+### WakaTime card
+
+```Markdown
+![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+```
 
 ![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
 
