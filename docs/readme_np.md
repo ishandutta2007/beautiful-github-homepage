@@ -91,7 +91,7 @@ Copy-paste this into your markdown content, and that's it. Simple!
 Change the `?username=` value to your GitHub's username.
 
 ```md
-[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 _Note: Ranks are calculated based on user's stats, see [src/calculateRank.js](./src/calculateRank.js)_
@@ -103,7 +103,7 @@ To hide any specific stats, you can pass a query parameter `?hide=` with comma-s
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
 ```
 
 ### जोड्नु होस् निजी टोटल  योगदान
@@ -115,7 +115,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 > Options: `&count_private=true`
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&count_private=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&count_private=true)
 ```
 
 ### देखाउनु होस् इकोन 
@@ -123,7 +123,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 To enable icons, you can pass `show_icons=true` in the query param, like so:
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true)
 ```
 
 ### विषयवस्तुहरू
@@ -133,7 +133,7 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `?theme=THEME_NAME` parameter like so :-
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 ```
 
 #### सबै इनबिल्ट विषयवस्तु :-
@@ -223,16 +223,16 @@ GitHub फाल्तु पिनले तपाइँलाए GitHub री
 Endpoint: `api/pin?username=ishandutta2007&repo=beautiful-github-homepage`
 
 ```md
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### डेमो 
 
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 Use [show_owner](#customization) variable to include the repo's owner username
 
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 # टोप भाषा कार्ड 
 
@@ -246,7 +246,7 @@ _NOTE: टोप भाषाहरुले आफ्नो सिपलाए 
 Endpoint: `api/top-langs?username=ishandutta2007`
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Exclude individual repositories
@@ -254,7 +254,7 @@ Endpoint: `api/top-langs?username=ishandutta2007`
 You can use `?exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### कुनै भाषा चुपौनॆ तरिका 
@@ -262,7 +262,7 @@ You can use `?exclude_repo=repo1,repo2` parameter to exclude individual reposito
 You can use `?hide=language1,language2` parameter to hide individual languages.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### धेरॆ भाषाहरु हेर्नको लागि 
@@ -270,7 +270,7 @@ You can use `?hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 10 (inclusive), and the default is 5.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&langs_count=8)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&langs_count=8)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### कम्प्याक्ट भाषा कार्ड ळयोउत 
@@ -278,30 +278,30 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 तपाइले `&layout=compact` ओप्तिओनपनि  कार्ड देसिग्न को लागि परहयोग गर्न सक्नु हुन्क्ष 
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### डेमो 
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - Compact layout
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 # वाका समय वीक स्तट्स 
 
 Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```md
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ###  डेमो
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ---
 
@@ -309,49 +309,49 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 - देफौल्ट 
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)
 
 - हिदिंग स्पेचific स्तट्स 
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
 
 - इकोनहरु शो गर्ने 
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
 
 - सबै कमितहरु 
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&include_all_commits=true)
 
 - थेम्स 
 
 कुनै एउटा चोज गर्नुस [default themes](#themes)
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 
 - घ्रदिएन्त 
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - स्तत्स कार्ड लाए कस्तोमेज गर्ने    
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - सेत्तिंग  कार्ड  लोचले 
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&locale=es)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api/?username=ishandutta2007&locale=es)
 
 - रेपो कार्डलाई एडित गर्नु 
 
-![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - टोप भाषा 
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - वक समय कार्ड 
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ---
 
@@ -361,10 +361,10 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```html
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
 </a>
 <a href="https://github.com/ishandutta2007/convoychat">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
 </a>
 ```
 
@@ -373,7 +373,7 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 #### [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
 गितहब को अपिएले पाच हजार रेक़ुएस्त प्रति घण्टा मात्र मिल्क्ष ।  मेरो 
- `https://beautiful-github-homepage.vercel.app/api` प्रोजेक्ट मा रेत्  लिमिट हुन सक्क्ष । तर तपाइले आफ्नै वेर्चेल सेर्वेर मा होस्ट गर्नु बाको छ बने यो प्रोब्लेम हुदैन।  
+ `https://beautiful-github-homepage-vercel.vercel.app/api` प्रोजेक्ट मा रेत्  लिमिट हुन सक्क्ष । तर तपाइले आफ्नै वेर्चेल सेर्वेर मा होस्ट गर्नु बाको छ बने यो प्रोब्लेम हुदैन।  
  होस्ट गर्ने तरिका यस पकारका षन ।
 
 NOTE: Since [#58](https://github.com/ishandutta2007/beautiful-github-homepage/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D

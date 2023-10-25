@@ -88,7 +88,7 @@
 `?username=` の値は、あなたの GitHub アカウントのユーザー名に変更してください。
 
 ```md
-[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 _Note: カードに表示されるランクはユーザの統計情報に基づいて計算されています。詳しくは、[src/calculateRank.js](../src/calculateRank.js)をご覧ください。_
@@ -100,7 +100,7 @@ _Note: カードに表示されるランクはユーザの統計情報に基づ�
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
 ```
 
 ### プライベートリポジトリへのコミットをカウントする
@@ -112,7 +112,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 > Options: `&count_private=true`
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&count_private=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&count_private=true)
 ```
 
 ### アイコンを表示する
@@ -120,7 +120,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 クエリパラメータ `?show_icons=true` を使用することで、アイコンの表示が有効になります。
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true)
 ```
 
 ### テーマの変更
@@ -130,7 +130,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 `?theme=THEME_NAME` は以下のように使います。
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 ```
 
 #### 内蔵テーマの一覧
@@ -211,16 +211,16 @@ GitHub extra pins を使うと、GitHub の readme プロフィールを使っ�
 エンドポイント: `api/pin?username=ishandutta2007&repo=beautiful-github-homepage`
 
 ```md
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### デモ
 
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 リポジトリのオーナーのユーザー名を含める場合は、show_owner 変数を使用します。
 
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 # Top Languages Card
 
@@ -235,7 +235,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 エンドポイント: `api/top-langs?username=ishandutta2007`
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### 特定の言語を隠す
@@ -243,7 +243,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `?hide=language1,language2` 使用することで、特定の言語を非表示にすることができます。
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### レイアウトをコンパクトにする
@@ -251,16 +251,16 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `&layout=compact` を使用することで、カードのデザインを変更することができます。
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### デモ
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - Compact layout の場合
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ---
 
@@ -268,41 +268,41 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 - デフォルト
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)
 
 - 特定の統計情報を隠す
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
 
 - アイコンを表示する
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
 
 - コミット数の総数をカウントする
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&include_all_commits=true)
 
 - テーマの変更
 
 任意の[テーマ](#themes)を選択できます。
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 
 - グラデーション
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - stats card のカスタマイズ
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - repo card のカスタマイズ
 
-![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top languages
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ---
 
@@ -312,10 +312,10 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 ```html
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
 </a>
 <a href="https://github.com/ishandutta2007/convoychat">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
 </a>
 ```
 
@@ -323,7 +323,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 #### [@codeSTACKr によるチュートリアルはこちら](https://youtu.be/n6d4KHSKqGk?t=107)
 
-GitHub API は 1 時間あたり 5k リクエストしか受け付けていないので、私の `https://beautiful-github-homepage.vercel.app/api` がレートリミッターを超えてしまう可能性があります。自分の Vercel サーバーでホストしているのであれば、何も心配する必要はありません。デプロイボタンをクリックして始めましょう！
+GitHub API は 1 時間あたり 5k リクエストしか受け付けていないので、私の `https://beautiful-github-homepage-vercel.vercel.app/api` がレートリミッターを超えてしまう可能性があります。自分の Vercel サーバーでホストしているのであれば、何も心配する必要はありません。デプロイボタンをクリックして始めましょう！
 
 NOTE: [#58](https://github.com/ishandutta2007/beautiful-github-homepage/pull/58) 以降は 5k 以上のリクエストに対応できるようになり、ダウンタイムの問題もなくなりました :smile:
 

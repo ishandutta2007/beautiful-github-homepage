@@ -17,7 +17,7 @@ With inbuilt themes, you can customize the look of the card without doing any ma
 Use \`?theme=THEME_NAME\` parameter like so:
 
 \`\`\`md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&theme=dark&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&theme=dark&show_icons=true)
 \`\`\`
 
 ## Stats
@@ -47,10 +47,10 @@ Want to add a new theme? Consider reading the [contribution guidelines](../CONTR
 `;
 
 const createRepoMdLink = (theme) => {
-  return `\n[${theme}_repo]: https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&cache_seconds=86400&theme=${theme}`;
+  return `\n[${theme}_repo]: https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&cache_seconds=86400&theme=${theme}`;
 };
 const createStatMdLink = (theme) => {
-  return `\n[${theme}]: https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=${theme}`;
+  return `\n[${theme}]: https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=${theme}`;
 };
 
 const generateLinks = (fn) => {

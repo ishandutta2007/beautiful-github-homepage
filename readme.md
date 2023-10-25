@@ -111,7 +111,7 @@
 # Important Notices <!-- omit in toc -->
 
 > [!IMPORTANT]\
-> Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://beautiful-github-homepage.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/ishandutta2007/beautiful-github-homepage/issues/1471)). We use caching to prevent this from happening (see https://github.com/ishandutta2007/beautiful-github-homepage#common-options). You can turn off these rate limit protections by deploying [your own Vercel instance](#disable-rate-limit-protections).
+> Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://beautiful-github-homepage-vercel.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/ishandutta2007/beautiful-github-homepage/issues/1471)). We use caching to prevent this from happening (see https://github.com/ishandutta2007/beautiful-github-homepage#common-options). You can turn off these rate limit protections by deploying [your own Vercel instance](#disable-rate-limit-protections).
 
 <img alt="Uptime Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fbeautiful-github-homepage-git-monitoring-beautiful-github-homepage-team.vercel.app%2Fapi%2Fstatus%2Fup%3Ftype%3Dshields">
 
@@ -125,7 +125,7 @@ Copy-paste this into your markdown content, and that is it. Simple!
 Change the `?username=` value to your GitHub username.
 
 ```md
-[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 > [!WARNING]\
@@ -141,7 +141,7 @@ You can pass a query parameter `&hide=` to hide any specific stats with comma-se
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
 ```
 
 ### Showing additional individual stats
@@ -151,7 +151,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 > Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 ```
 
 ### Showing icons
@@ -159,7 +159,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true)
 ```
 
 ### Themes
@@ -169,7 +169,7 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `&theme=THEME_NAME` parameter like so :
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes
@@ -182,8 +182,8 @@ You can look at a preview for [all available themes](themes/README.md) or checko
 
 #### Responsive Card Theme
 
-[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-dark-mode-only)
-[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-light-mode-only)
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-dark-mode-only)
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-light-mode-only)
 
 Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
 
@@ -192,13 +192,13 @@ Since GitHub will re-upload the cards and serve them from their [CDN](https://do
 We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=transparent)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=transparent)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=transparent)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=transparent)
 
 </details>
 
@@ -207,13 +207,13 @@ We have included a `transparent` theme that has a transparent background. This t
 You can use the `bg_color` parameter to make any of [the available themes](themes/README.md) transparent. This is done by setting the `bg_color` to a color with a transparent alpha channel (i.e. `bg_color=00000000`):
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&bg_color=00000000)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&bg_color=00000000)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&bg_color=00000000)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&show_icons=true\&bg_color=00000000)
 
 </details>
 
@@ -222,15 +222,15 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) tags to switch the theme based on the user GitHub theme automatically. This is done by appending `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of an image URL. This tag will define whether the image specified in the markdown is only shown to viewers using a light or a dark GitHub theme:
 
 ```md
-[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
-[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
-[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
 
 </details>
 
@@ -241,14 +241,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 ```html
 <picture>
   <source
-    srcset="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark"
+    srcset="https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true"
+    srcset="https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true" />
+  <img src="https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true" />
 </picture>
 ```
 
@@ -257,14 +257,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 
 <picture>
   <source
-    srcset="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark"
+    srcset="https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true"
+    srcset="https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true" />
+  <img src="https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true" />
 </picture>
 
 </details>
@@ -423,16 +423,16 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/pin?username=ishandutta2007&repo=beautiful-github-homepage`
 
 ```md
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Demo
 
-![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007\&repo=beautiful-github-homepage)
+![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007\&repo=beautiful-github-homepage)
 
 Use [show\_owner](#repo-card-exclusive-options) query option to include the repo's owner username
 
-![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007\&repo=beautiful-github-homepage\&show_owner=true)
+![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007\&repo=beautiful-github-homepage\&show_owner=true)
 
 # GitHub Gist Pins
 
@@ -445,16 +445,16 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/gist?id=bbfce31e0217a3689c8d961a356cb10d`
 
 ```md
-[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
+[![Gist Card](https://beautiful-github-homepage-vercel.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
 ```
 
 ### Demo
 
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+![Gist Card](https://beautiful-github-homepage-vercel.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
 
 Use [show\_owner](#gist-card-exclusive-options) query option to include the gist's owner username
 
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
+![Gist Card](https://beautiful-github-homepage-vercel.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
 
 # Top Languages Card
 
@@ -479,7 +479,7 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/top-langs?username=ishandutta2007`
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Language stats algorithm
@@ -497,7 +497,7 @@ By default, only the byte count is used for determining the languages percentage
 *   `&size_weight=0&count_weight=1` - Orders by repo count
 
 ```md
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&size_weight=0.5&count_weight=0.5)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&size_weight=0.5&count_weight=0.5)
 ```
 
 ### Exclude individual repositories
@@ -505,7 +505,7 @@ By default, only the byte count is used for determining the languages percentage
 You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)
 ```
 
 ### Hide individual languages
@@ -513,7 +513,7 @@ You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repo
 You can use `&hide=language1,language2` parameter to hide individual languages.
 
 ```md
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)
 ```
 
 ### Show more languages
@@ -521,7 +521,7 @@ You can use `&hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 20 (inclusive). By default it was set to `5` for `normal` & `donut` and `6` for other layouts.
 
 ```md
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&langs_count=8)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&langs_count=8)
 ```
 
 ### Compact Language Card Layout
@@ -529,7 +529,7 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 You can use the `&layout=compact` option to change the card design.
 
 ```md
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)
 ```
 
 ### Donut Chart Language Card Layout
@@ -537,7 +537,7 @@ You can use the `&layout=compact` option to change the card design.
 You can use the `&layout=donut` option to change the card design.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=donut)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=donut)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Donut Vertical Chart Language Card Layout
@@ -545,7 +545,7 @@ You can use the `&layout=donut` option to change the card design.
 You can use the `&layout=donut-vertical` option to change the card design.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=donut-vertical)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=donut-vertical)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Pie Chart Language Card Layout
@@ -553,7 +553,7 @@ You can use the `&layout=donut-vertical` option to change the card design.
 You can use the `&layout=pie` option to change the card design.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=pie)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=pie)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Hide Progress Bars
@@ -561,32 +561,32 @@ You can use the `&layout=pie` option to change the card design.
 You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
 
 ```md
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide_progress=true)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&hide_progress=true)
 ```
 
 ### Demo
 
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)
 
 *   Compact layout
 
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=compact)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007\&layout=compact)
 
 *   Donut Chart layout
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=donut)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007\&layout=donut)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 *   Donut Vertical Chart layout
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=donut-vertical)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007\&layout=donut-vertical)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 *   Pie Chart layout
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=pie)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007\&layout=pie)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 *   Hidden progress bars
 
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&hide_progress=true)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007\&hide_progress=true)
 
 # WakaTime Stats Card
 
@@ -596,18 +596,18 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```md
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Demo
 
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)
 
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
+![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
 
 *   Compact layout
 
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
+![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
 
 ***
 
@@ -615,73 +615,73 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 *   Default
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)
 
 *   Hiding specific stats
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=contribs,issues)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&hide=contribs,issues)
 
 *   Showing additional stats
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 *   Showing icons
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=issues\&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&hide=issues\&show_icons=true)
 
 *   Shows Github logo instead rank level
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=github)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&rank_icon=github)
 
 *   Shows user rank percentile instead of rank level
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=percentile)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&rank_icon=percentile)
 
 *   Customize Border Color
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&border_color=2e4058)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&border_color=2e4058)
 
 *   Include All Commits
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&include_all_commits=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&include_all_commits=true)
 
 *   Themes
 
 Choose from any of the [default themes](#themes)
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=radical)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=radical)
 
 *   Gradient
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
 
 *   Customizing stats card
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api/?username=ishandutta2007\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
 
 *   Setting card locale
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&locale=es)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api/?username=ishandutta2007\&locale=es)
 
 *   Customizing repo card
 
-![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007\&repo=beautiful-github-homepage\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
+![Customized Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin?username=ishandutta2007\&repo=beautiful-github-homepage\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
 
 *   Gist card
 
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+![Gist Card](https://beautiful-github-homepage-vercel.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
 
 *   Customizing gist card
 
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
+![Gist Card](https://beautiful-github-homepage-vercel.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
 
 *   Top languages
 
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)
+![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)
 
 *   WakaTime card
 
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)
 
 ***
 
@@ -691,19 +691,19 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 ```html
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
-  <img height=200 align="center" src="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007" />
+  <img height=200 align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007" />
 </a>
 <a href="https://github.com/ishandutta2007/convoychat">
-  <img height=200 align="center" src="https://beautiful-github-homepage.vercel.app/api/top-langs?username=ishandutta2007&layout=compact&langs_count=8&card_width=320" />
+  <img height=200 align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/top-langs?username=ishandutta2007&layout=compact&langs_count=8&card_width=320" />
 </a>
 ```
 
 ```html
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
 </a>
 <a href="https://github.com/ishandutta2007/convoychat">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
 </a>
 ```
 
@@ -711,19 +711,19 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <summary>:eyes: Show example</summary>
 
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
-  <img height=200 align="center" src="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007" />
+  <img height=200 align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007" />
 </a>
 <a href="https://github.com/ishandutta2007/convoychat">
-  <img height=200 align="center" src="https://beautiful-github-homepage.vercel.app/api/top-langs?username=ishandutta2007&layout=compact&langs_count=8&card_width=320" />
+  <img height=200 align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/top-langs?username=ishandutta2007&layout=compact&langs_count=8&card_width=320" />
 </a>
 
 ***
 
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
 </a>
 <a href="https://github.com/ishandutta2007/convoychat">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
 </a>
 
 </details>
@@ -734,7 +734,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 ### :film\_projector: [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Since the GitHub API only allows 5k requests per hour, my `https://beautiful-github-homepage.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you do not have to worry about anything. Click on the deploy button to get started!
+Since the GitHub API only allows 5k requests per hour, my `https://beautiful-github-homepage-vercel.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you do not have to worry about anything. Click on the deploy button to get started!
 
 > [!NOTE]\
 > Since [#58](https://github.com/ishandutta2007/beautiful-github-homepage/pull/58), we should be able to handle more than 5k requests and have fewer issues with downtime :grin:.

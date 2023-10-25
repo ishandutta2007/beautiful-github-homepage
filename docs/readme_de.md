@@ -88,7 +88,7 @@ Kopiere folgendes in deine Readme um die Statistiken zu benutzen.
 Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub-Nutzername steht.
 
 ```md
-[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 _Hinweis: Die Berechnung des Ranges basiert auf den jeweiligen Benutzerstatistiken, siehe [src/calculateRank.js](../src/calculateRank.js)_
@@ -100,7 +100,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 > Optionen: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=["contribs","prs"])
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=["contribs","prs"])
 ```
 
 ### Symbole anzeigen
@@ -108,7 +108,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 Um Symbole anzuzeigen kann der URL-Parameter `show_icons=true` wie folgt verwendet werden:
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true)
 ```
 
 ### Erscheinungsbild/Themes
@@ -118,7 +118,7 @@ Mithilfe der eingebauten Themes kann das Aussehen der Karten verändern werden, 
 Benutze den `?theme=THEME_NAME`-Parameter wie folgt :-
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 ```
 
 #### Alle eingebauten Themes :-
@@ -208,16 +208,16 @@ Den Wert des URL-Parameters `?repo=` musst du so anpassen, dass dort der Namen d
 Endpunkt: `api/pin?username=ishandutta2007&repo=beautiful-github-homepage`
 
 ```md
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Beispiele
 
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 Benutze die [show_owner](#anpassungenpersonalisierung) Variable, um den Nutzernamen des Repository-Eigentümers anzuzeigen.
 
-[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Readme Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 # Top Programmiersprachen-Karte
 
@@ -233,7 +233,7 @@ Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub-Nutz
 Endpunkt: `api/top-langs?username=ishandutta2007`
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Verbirg einzelne Sprachen
@@ -241,7 +241,7 @@ Endpunkt: `api/top-langs?username=ishandutta2007`
 Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sprachen auszublenden.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Kompaktes Sprachen-Karte Layout
@@ -249,34 +249,34 @@ Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sp
 Du kannst die `&layout=compact` Option nutzen, um das Kartendesign zu ändern.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Beispiel
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - Kompaktes Layout
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 # WakaTime Wochen-Statistik
 
 Ändere `?username=` in den eigenen [WakaTime](https://wakatime.com)-Benutzernamen.
 
 ```md
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Beispiel
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - Kompaktes Layout
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ---
 
@@ -284,41 +284,41 @@ Du kannst die `&layout=compact` Option nutzen, um das Kartendesign zu ändern.
 
 - Default
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)
 
 - Ausblenden bestimmter Statistiken
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=["contribs","issues"])
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=["contribs","issues"])
 
 - Symbole anzeigen
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=["issues"]&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=["issues"]&show_icons=true)
 
 - Alle Beiträge anzeigen
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&include_all_commits=true)
 
 - Erscheinungsbild/Themes
 
 Wähle Eines von den [Standard-Themes](#themes)
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 
 - Farbverlauf
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Statistiken-Karte anpassen
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Repo-Karte(Extra-Pin) anpassen
 
-![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top Programmiersprachen
 
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ---
 
@@ -328,10 +328,10 @@ Wähle Eines von den [Standard-Themes](#themes)
 
 ```html
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
 </a>
 <a href="https://github.com/ishandutta2007/convoychat">
-  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
+  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
 </a>
 ```
 
@@ -339,7 +339,7 @@ Wähle Eines von den [Standard-Themes](#themes)
 
 #### [Schritt für Schritt YouTube Tutorial by @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Da die GitHub API nur 5 Tsd. Aufrufe pro Stunde zulässt, kann es passieren, dass meine `https://beautiful-github-homepage.vercel.app/api` dieses Limit erreicht.
+Da die GitHub API nur 5 Tsd. Aufrufe pro Stunde zulässt, kann es passieren, dass meine `https://beautiful-github-homepage-vercel.vercel.app/api` dieses Limit erreicht.
 Wenn du es auf deinem eigenen Vercel-Server hostest, brauchst du dich darum nicht zu kümmern. Klicke auf den Deploy-Knopf um loszulegen!
 
 Hinweis: Seit [#58](https://github.com/ishandutta2007/beautiful-github-homepage/pull/58) sollte es möglich sein, mehr als 5 Tsd Aufrufe pro Stunde ohne Downtimes zu verkraften :D
