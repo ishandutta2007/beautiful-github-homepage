@@ -620,30 +620,30 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```md
-[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Demo
 
 ```Markdown
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ishandutta2007)
+![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ishandutta2007)
 ```
 
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ishandutta2007)
+![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ishandutta2007)
 
 ```Markdown
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
+![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
 ```
 
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
+![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
 
 ### Compact layout
 
 ```Markdown
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
+![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
 ```
 
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
+![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
 
 ***
 
@@ -782,10 +782,10 @@ Choose from any of the [default themes](#themes)
 ### WakaTime card
 
 ```Markdown
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
 ```
 
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
 
 ***
 
