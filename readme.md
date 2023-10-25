@@ -626,10 +626,10 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 ### Demo
 
 ```Markdown
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ishandutta2007)
 ```
 
-![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ishandutta2007)
 
 ```Markdown
 ![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
