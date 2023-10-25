@@ -91,7 +91,7 @@ Alt kısımdaki kodu Kopyalayın ve yapıştırın. İşte bu kadar. Çok basit!
 `?username=` değerini kendi GitHub kullanıcı adınız ile değiştirin.
 
 ```md
-[![Ishan'nın GitHub İstatistikleri](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Ishan'nın GitHub İstatistikleri](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 _Not: Şu sıralamalar mevcut: S+ (en üst 1%), S (en üst 25%), A++ (en üst 45%), A+ (en üst 60%), and B+ (herkes).
 Buradaki değerler [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) ile hesaplanırken; commitler, katkılar, hatalar, yıldızlar, çekme istekleri, takipçiler ve sahip olunan depolar (repository) göz önünde bulundurulamaktadır.
@@ -104,7 +104,7 @@ Bazı belirli istatistikleri gizlemek için `?hide=` paremetresi içerisinde vir
 > Örnek: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![mustafacagri's github stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=mustafacagri&hide=contribs,prs)
+![mustafacagri's github stats](https://beautiful-github-homepage.vercel.app/api?username=mustafacagri&hide=contribs,prs)
 ```
 
 ### Özel Katkı Sayısını Toplam Commit Sayısına Ekleme
@@ -116,7 +116,7 @@ _Not: Eğer projeyi kendiniz yayınlayıp kullanacaksanız, özel depolardaki ge
 > Örnek: `&count_private=true`
 
 ```md
-![mustafacagri's github stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=mustafacagri&count_private=true)
+![mustafacagri's github stats](https://beautiful-github-homepage.vercel.app/api?username=mustafacagri&count_private=true)
 ```
 
 ### İkonları Göstermek
@@ -124,7 +124,7 @@ _Not: Eğer projeyi kendiniz yayınlayıp kullanacaksanız, özel depolardaki ge
 Eğer ikonları göstermek istiyorsanız, `show_icons=true` parametresini göndermeniz gerekmektedir. Örnek olarak:
 
 ```md
-![mustafacagri's github stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=mustafacagri&show_icons=true)
+![mustafacagri's github stats](https://beautiful-github-homepage.vercel.app/api?username=mustafacagri&show_icons=true)
 ```
 
 ### Temalar
@@ -134,7 +134,7 @@ Dahili olarak gelen temalarla, herhangi bir [manuel özelleştirme](#özelleşti
 `?theme=THEME_NAME` parametresini kullanabilirsiniz:
 
 ```md
-![mustafacagri's github stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
+![mustafacagri's github stats](https://beautiful-github-homepage.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
 ```
 
 #### Tüm Dahili Temalar :-
@@ -225,16 +225,16 @@ Alttaki kodu kopyalayıp readme dosyanıza urlleri değiştirerek yapıştırın
 Endpoint: `api/pin?username=mustafacagri&repo=beautiful-github-homepage`
 
 ```md
-[![ReadMe Kartı](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=mustafacagri&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![ReadMe Kartı](https://beautiful-github-homepage.vercel.app/api/pin/?username=mustafacagri&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Demo
 
-[![ReadMe Kartı](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=mustafacagri&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![ReadMe Kartı](https://beautiful-github-homepage.vercel.app/api/pin/?username=mustafacagri&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 [show_owner](#özelleştirmeler) ile reponun sahibini gösterebilirsiniz.
 
-[![ReadMe Kartı](https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=mustafacagri&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![ReadMe Kartı](https://beautiful-github-homepage.vercel.app/api/pin/?username=mustafacagri&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 # En Çok Kullanılan Diller
 
@@ -249,7 +249,7 @@ Alttaki kodu kopyalayıp readme dosyanıza urlleri değiştirerek yapıştırın
 Endpoint: `api/top-langs?username=mustafacagri`
 
 ```md
-[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Belirli Repoları Çıkartın
@@ -257,7 +257,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `?exclude_repo=repo1,repo2` parametresini kullanarak istediğiniz repoları çıkartabilirsiniz.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Belirli Dilleri Çıkartın
@@ -265,7 +265,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `?hide=language1,language2` parametresini kullanarak istediğiniz dilleri çıkartabilirsiniz.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=mustafacagri&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=mustafacagri&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Daha Fazla Dil Gösterin
@@ -273,7 +273,7 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `&langs_count=` parametresini kullanarak kartınızda gösterilen dil sayısını azaltabilir ya da artırabilirsiniz. Varsayılan değeri 5, kullanılabilir sayı aralığı ise 1-10'dur.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=mustafacagri&langs_count=8)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=mustafacagri&langs_count=8)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Kompakt Dil Kartı Düzeni
@@ -281,34 +281,34 @@ Endpoint: `api/top-langs?username=mustafacagri`
 `&layout=compact` parametresiyle kart tasarımınızı değiştirebilirsiniz.
 
 ```md
-[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Demo
 
-[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=mustafacagri)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - Kompakt Düzen / Layout
 
-[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=mustafacagri&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 # WakaTime Haftalık İstatistikler
 
 `?username=` değerini [WakaTime](https://wakatime.com)'daki kullanıcı adınızla değiştirin.
 
 ```md
-[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
 ### Demo
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - Kompakt Düzen
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ---
 
@@ -316,49 +316,49 @@ Endpoint: `api/top-langs?username=mustafacagri`
 
 - Varsayılan
 
-![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007)
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)
 
 - Belirli istatistikler gizli
 
-![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
 
 - İkonlar gösteriliyor
 
-![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
 
 - Tüm commitler dahil
 
-![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&include_all_commits=true)
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
 
 - Temalar
 
 [default themes](#themes) adresinden istediğiniz temayı seçin.
 
-![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=mustafacagri&show_icons=true&theme=radical)
 
 - Gradient
 
-![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - İstatistik Kartını Düzenleyin
 
-![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Kartın dilini seçin
 
-![Ishan's GitHub stats](https://beautiful-github-homepage-vercel.vercel.app/api/?username=ishandutta2007&locale=es)
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&locale=es)
 
 - Repo kartı düzenleyin
 
-![Customized Card](https://beautiful-github-homepage-vercel.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - En çok kullanılan diller
 
-[![Top Langs](https://beautiful-github-homepage-vercel.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - WakaTime kart
 
-[![Harlok's WakaTime stats](https://beautiful-github-homepage-vercel.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Harlok's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ---
 
@@ -368,10 +368,10 @@ Genellikle resimleri yan yana düzenleyemezsiniz. Bunu yapmak için şu yaklaş�
 
 ```html
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
-  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
+  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
 </a>
 <a href="https://github.com/ishandutta2007/convoychat">
-  <img align="center" src="https://beautiful-github-homepage-vercel.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
+  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
 </a>
 ```
 
@@ -380,7 +380,7 @@ Genellikle resimleri yan yana düzenleyemezsiniz. Bunu yapmak için şu yaklaş�
 
 #### [@codeSTACKr'ın Yayınladığı Video Eğitimine Göz Atın](https://youtu.be/n6d4KHSKqGk?t=107)
 
-GitHub API saatte sadece 5.000 isteğe izin verdiği için `https://beautiful-github-homepage-vercel.vercel.app/api` adresindeki API'm bu limite muhtemelen takılmış olabilir. Eğer projeyi kendi Vercel sunucunuzda yayınlarsanız, böyle bir sorun yaşamayabilirsiniz. Deploy butonuna tıkla ve deploy başlasın!
+GitHub API saatte sadece 5.000 isteğe izin verdiği için `https://beautiful-github-homepage.vercel.app/api` adresindeki API'm bu limite muhtemelen takılmış olabilir. Eğer projeyi kendi Vercel sunucunuzda yayınlarsanız, böyle bir sorun yaşamayabilirsiniz. Deploy butonuna tıkla ve deploy başlasın!
 
 
 NOT: [#58](https://github.com/ishandutta2007/beautiful-github-homepage/pull/58) geliştirmesi sonrasında anlamadığımız bir şekilde 5.000 istek limitine takılmıyoruz :)
