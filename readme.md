@@ -232,8 +232,15 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&bg_color=00000000)
 ```
 
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&bg_color=00000000)
+
+
 <details>
 <summary>:eyes: Show example</summary>
+
+```md
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&bg_color=00000000)
+```
 
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&bg_color=00000000)
 
@@ -245,8 +252,17 @@ You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-sp
 
 ```md
 [![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+```
+
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+
+
+```md
 [![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
 ```
+
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
+
 
 <details>
 <summary>:eyes: Show example</summary>
