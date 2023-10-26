@@ -4,27 +4,30 @@
  <p align="center">在你的 README 中获取动态生成的 GitHub 统计信息！</p>
 </p>
   <p align="center">
-    <a href="https://github.com/ishandutta2007/beautiful-github-homepage/actions">
-      <img alt="Tests Passing" src="https://github.com/ishandutta2007/beautiful-github-homepage/workflows/Test/badge.svg" />
-    </a>
-    <a href="https://github.com/ishandutta2007/beautiful-github-homepage/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/ishandutta2007/beautiful-github-homepage" />
-    </a>
-    <a href="https://codecov.io/gh/ishandutta2007/beautiful-github-homepage">
-      <img alt="Tests Coverage" src="https://codecov.io/gh/ishandutta2007/beautiful-github-homepage/branch/master/graph/badge.svg" />
-    </a>
-    <a href="https://github.com/ishandutta2007/beautiful-github-homepage/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/ishandutta2007/beautiful-github-homepage?color=0088ff" />
-    </a>
-    <a href="https://github.com/ishandutta2007/beautiful-github-homepage/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ishandutta2007/beautiful-github-homepage?color=0088ff" />
-    </a>
-    <a href="https://securityscorecards.dev/viewer/?uri=github.com/ishandutta2007/beautiful-github-homepage">
-      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/ishandutta2007/beautiful-github-homepage/badge" />
-    </a>
-    <br />
-    <br />
-  </p>
+      <a href="https://github.com/ishandutta2007/beautiful-github-homepage/actions">
+          <img alt="Tests Passing" src="https://github.com/ishandutta2007/beautiful-github-homepage/workflows/Test/badge.svg" />
+      </a>
+      <a href="https://github.com/ishandutta2007/beautiful-github-homepage/graphs/contributors">
+          <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/ishandutta2007/beautiful-github-homepage" />
+      </a>
+      <a href="https://codecov.io/gh/ishandutta2007/beautiful-github-homepage">
+          <img alt="Tests Coverage" src="https://codecov.io/gh/ishandutta2007/beautiful-github-homepage/branch/master/graph/badge.svg" />
+      </a>
+      <a href="https://github.com/ishandutta2007/beautiful-github-homepage/issues">
+          <img alt="Issues" src="https://img.shields.io/github/issues/ishandutta2007/beautiful-github-homepage?color=0088ff" />
+      </a>
+      <a href="https://github.com/ishandutta2007/beautiful-github-homepage/pulls">
+          <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ishandutta2007/beautiful-github-homepage?color=0088ff" />
+      </a>
+      <a href="https://securityscorecards.dev/viewer/?uri=github.com/ishandutta2007/beautiful-github-homepage">
+          <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/ishandutta2007/beautiful-github-homepage/badge" />
+      </a>
+      <br />
+      <br />
+      <a href="https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss">
+          <img src="./powered-by-vercel.svg" />
+      </a>
+ </p>
 
   <p align="center">
     <a href="#全部-demos">查看 Demo</a>
