@@ -35,6 +35,10 @@
     <a href="https://github.com/ishandutta2007/beautiful-github-homepage/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">报告 Bug</a>
     ·
     <a href="https://github.com/ishandutta2007/beautiful-github-homepage/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">请求增加功能</a>
+    ·
+    <a href="https://github.com/ishandutta2007/beautiful-github-homepage/discussions/1770">常问问题</a>
+    ·
+    <a href="https://github.com/ishandutta2007/beautiful-github-homepage/discussions/new?category=q-a">问问题</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français</a>
