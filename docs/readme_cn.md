@@ -311,6 +311,26 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
   <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
 </a>
+<a href="https://github.com/ishandutta2007/beautiful-github-homepage">
+  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
+</a>
+```
+
+<details>
+<summary>:eyes: 显示示例</summary>
+
+<a href="https://github.com/ishandutta2007/beautiful-github-homepage">
+  <img height=200 align="center" src="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007" />
+</a>
+<a href="https://github.com/ishandutta2007/convoychat">
+  <img height=200 align="center" src="https://beautiful-github-homepage.vercel.app/api/top-langs?username=ishandutta2007&layout=compact&langs_count=8&card_width=320" />
+</a>
+
+***
+
+<a href="https://github.com/ishandutta2007/beautiful-github-homepage">
+  <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
+</a>
 <a href="https://github.com/ishandutta2007/convoychat">
   <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
 </a>
@@ -361,7 +381,7 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 ---
 
-[![https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss](../powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss)
+[![https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss](powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team\&utm_campaign=oss)
 
 欢迎贡献！ <3
 
