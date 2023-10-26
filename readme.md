@@ -217,6 +217,10 @@ We have included a `transparent` theme that has a transparent background. This t
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=transparent)
 ```
 
+
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=transparent)
+
+
 <details>
 <summary>:eyes: Show example</summary>
 
