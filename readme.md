@@ -128,6 +128,9 @@ Change the `?username=` value to your GitHub username.
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
+
 > [!WARNING]\
 > By default, the stats card only shows statistics like stars, commits and pull requests from public repositories. To show private statistics on the stats card, you should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
 
@@ -144,6 +147,9 @@ You can pass a query parameter `&hide=` to hide any specific stats with comma-se
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
 ```
 
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
+
+
 ### Showing additional individual stats
 
 You can pass a query parameter `&show=` to show any specific additional stats with comma-separated values.
@@ -154,6 +160,8 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 ```
 
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+
 ### Showing icons
 
 To enable icons, you can pass `&show_icons=true` in the query param, like so:
@@ -161,6 +169,8 @@ To enable icons, you can pass `&show_icons=true` in the query param, like so:
 ```md
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
 ```
+
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
 
 ### Themes
 
@@ -172,6 +182,8 @@ Use `&theme=THEME_NAME` parameter like so :
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 ```
 
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+
 #### All inbuilt themes
 
 Beautiful Github Homepage comes with several built-in themes (e.g. `dark`, `radical`, `merko`, `gruvbox`, `tokyonight`, `onedark`, `cobalt`, `synthwave`, `highcontrast`, `dracula`).
@@ -182,7 +194,17 @@ You can look at a preview for [all available themes](themes/README.md) or checko
 
 #### Responsive Card Theme
 
+```md
 [![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-dark-mode-only)
+```
+
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-dark-mode-only)
+
+
+```md
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-light-mode-only)
+```
+
 [![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-light-mode-only)
 
 Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
