@@ -629,24 +629,24 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 ### Demo
 
 ```Markdown
-![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+[![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+[![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ```Markdown
-![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
+[![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
+[![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ### Compact layout
 
 ```Markdown
-![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
+[![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
+[![Felipe Figueroa's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs\&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ***
 
@@ -811,7 +811,6 @@ Choose from any of the [default themes](#themes)
 
 ```Markdown
 [![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
-
 ```
 
 [![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
