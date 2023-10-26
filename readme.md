@@ -561,29 +561,34 @@ You can use the `&layout=pie` option to change the card design.
 You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
 
 ```md
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide_progress=true)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
 ### Demo
 
 ```Markdown
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 *   Compact layout
 
 ```Markdown
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=compact)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=compact)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 *   Donut Chart layout
 
 ```Markdown
-[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=donut)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=donut)](https://github.com/ishandutta2007/beautiful-github-homepage)]
 ```
 
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=donut)](https://github.com/ishandutta2007/beautiful-github-homepage)
@@ -607,10 +612,12 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 *   Hidden progress bars
 
 ```Markdown
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&hide_progress=true)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&hide_progress=true)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 # WakaTime Stats Card
 
@@ -652,140 +659,170 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 ### Default
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Hiding specific stats
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=contribs,issues)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=contribs,issues)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=contribs,issues)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=contribs,issues)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Showing additional stats
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Showing icons
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=issues\&show_icons=true)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=issues\&show_icons=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=issues\&show_icons=true)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=issues\&show_icons=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Shows Github logo instead rank level
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=github)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=github)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=github)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=github)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Shows user rank percentile instead of rank level
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=percentile)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=percentile)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=percentile)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&rank_icon=percentile)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Customize Border Color
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&border_color=2e4058)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&border_color=2e4058)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&border_color=2e4058)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&border_color=2e4058)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Include All Commits
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&include_all_commits=true)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&include_all_commits=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&include_all_commits=true)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&include_all_commits=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Themes
 
 Choose from any of the [default themes](#themes)
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=radical)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=radical)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=radical)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=radical)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Gradient
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Customizing stats card
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Setting card locale
 
 ```Markdown
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&locale=es)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&locale=es)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&locale=es)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&locale=es)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Customizing repo card
 
 ```Markdown
-![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007\&repo=beautiful-github-homepage\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
+[![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007\&repo=beautiful-github-homepage\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007\&repo=beautiful-github-homepage\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
+[![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007\&repo=beautiful-github-homepage\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ### Gist card
 
 ```Markdown
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Customizing gist card
 
 ```Markdown
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Top languages
 
 ```Markdown
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ### WakaTime card
 
 ```Markdown
-![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+[![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ```
 
-![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)
+[![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ***
 
