@@ -562,14 +562,12 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 
 ```md
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
-
 ```
 
 ### Demo
 
 ```Markdown
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
-
 ```
 
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
@@ -579,7 +577,6 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 
 ```Markdown
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
-
 ```
 
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
@@ -613,7 +610,6 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 
 ```Markdown
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
-
 ```
 
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007\&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
@@ -660,7 +656,6 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```Markdown
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
-
 ```
 
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
@@ -670,7 +665,6 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```Markdown
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=contribs,issues)](https://github.com/ishandutta2007/beautiful-github-homepage)
-
 ```
 
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&hide=contribs,issues)](https://github.com/ishandutta2007/beautiful-github-homepage)
@@ -680,7 +674,6 @@ Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```Markdown
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/ishandutta2007/beautiful-github-homepage)
-
 ```
 
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/ishandutta2007/beautiful-github-homepage)
@@ -834,7 +827,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
   <img height=200 align="center" src="https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007" />
 </a>
-<a href="https://github.com/ishandutta2007/convoychat">
+<a href="https://github.com/ishandutta2007/beautiful-github-homepage">
   <img height=200 align="center" src="https://beautiful-github-homepage.vercel.app/api/top-langs?username=ishandutta2007&layout=compact&langs_count=8&card_width=320" />
 </a>
 ```
@@ -843,7 +836,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
   <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage" />
 </a>
-<a href="https://github.com/ishandutta2007/convoychat">
+<a href="https://github.com/ishandutta2007/beautiful-github-homepage">
   <img align="center" src="https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=convoychat" />
 </a>
 ```
