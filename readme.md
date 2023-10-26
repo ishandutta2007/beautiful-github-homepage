@@ -450,9 +450,17 @@ Endpoint: `api/gist?id=bbfce31e0217a3689c8d961a356cb10d`
 
 ### Demo
 
+```md
+![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+```
+
 ![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
 
 Use [show\_owner](#gist-card-exclusive-options) query option to include the gist's owner username
+
+```md
+![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
+```
 
 ![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
 
@@ -482,6 +490,8 @@ Endpoint: `api/top-langs?username=ishandutta2007`
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ### Language stats algorithm
 
 We use the following algorithm to calculate the languages percentages on the language card:
@@ -500,6 +510,8 @@ By default, only the byte count is used for determining the languages percentage
 ![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&size_weight=0.5&count_weight=0.5)
 ```
 
+![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&size_weight=0.5&count_weight=0.5)
+
 ### Exclude individual repositories
 
 You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repositories.
@@ -507,6 +519,8 @@ You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repo
 ```md
 ![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)
 ```
+
+![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)
 
 ### Hide individual languages
 
@@ -516,6 +530,9 @@ You can use `&hide=language1,language2` parameter to hide individual languages.
 ![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)
 ```
 
+![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)
+
+
 ### Show more languages
 
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 20 (inclusive). By default it was set to `5` for `normal` & `donut` and `6` for other layouts.
@@ -523,6 +540,8 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 ```md
 ![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&langs_count=8)
 ```
+
+![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&langs_count=8)
 
 ### Compact Language Card Layout
 
@@ -532,6 +551,9 @@ You can use the `&layout=compact` option to change the card design.
 ![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)
 ```
 
+![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)
+
+
 ### Donut Chart Language Card Layout
 
 You can use the `&layout=donut` option to change the card design.
@@ -539,6 +561,8 @@ You can use the `&layout=donut` option to change the card design.
 ```md
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=donut)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
+
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=donut)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ### Donut Vertical Chart Language Card Layout
 
@@ -548,6 +572,9 @@ You can use the `&layout=donut-vertical` option to change the card design.
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=donut-vertical)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=donut-vertical)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
+
 ### Pie Chart Language Card Layout
 
 You can use the `&layout=pie` option to change the card design.
@@ -556,6 +583,9 @@ You can use the `&layout=pie` option to change the card design.
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=pie)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=pie)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
+
 ### Hide Progress Bars
 
 You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
@@ -563,6 +593,9 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 ```md
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
+
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Demo
 
