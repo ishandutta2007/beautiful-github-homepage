@@ -97,6 +97,8 @@
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 _注: 等级基于用户的统计信息计算得出，详见 [src/calculateRank.js](../src/calculateRank.js)_
 
 ### 隐藏指定统计
@@ -108,6 +110,9 @@ _注: 等级基于用户的统计信息计算得出，详见 [src/calculateRank.
 ```md
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
 ```
+
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
+
 
 ### 将私人项目贡献添加到总提交计数中
 
@@ -121,6 +126,8 @@ _注：如果你是自己部署本项目，私人贡献将会默认被计数，�
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&count_private=true)
 ```
 
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&count_private=true)
+
 ### 显示图标
 
 如果想要显示图标，你可以调用 `show_icons=true` 参数，像这样：
@@ -128,6 +135,8 @@ _注：如果你是自己部署本项目，私人贡献将会默认被计数，�
 ```md
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
 ```
+
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
 
 ### 主题
 
@@ -138,6 +147,9 @@ _注：如果你是自己部署本项目，私人贡献将会默认被计数，�
 ```md
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 ```
+
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+
 
 #### 所有现有主题
 
@@ -215,11 +227,22 @@ GitHub 更多置顶 允许你在使用 GitHub readme profile 时，在个人资�
 [![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ### Demo
+
+```md
+[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
+
 使用 [show_owner](#自定义) 变量将 Repo 所有者的用户名包含在内。
+
+```md
+[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
@@ -239,6 +262,8 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ### 隐藏指定语言
 
 可以使用 `?hide=language1,language2` 参数来隐藏指定的语言。
@@ -246,6 +271,8 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 ```md
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
+
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ### 紧凑的语言卡片布局
 
@@ -255,11 +282,21 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ### Demo
+
+```md
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 紧凑布局
+
+```md
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
@@ -273,13 +310,25 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 - 隐藏指定统计
 
+```md
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
+```
+
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
 
 - 显示图标
 
+```md
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
+```
+
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
 
 - 包含全部提交
+
+```md
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
+```
 
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
 
@@ -287,21 +336,43 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 
 从[默认主题](#主题)中进行选择
 
+```md
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+```
+
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 
 - 渐变
+
+```md
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+```
 
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - 自定义统计卡片
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+```Markdown
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&locale=es)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
+
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007\&locale=es)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 - 自定义 repo 卡片
 
-![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+```Markdown
+[![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007\&repo=beautiful-github-homepage\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
+
+[![Customized Card](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007\&repo=beautiful-github-homepage\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 - 热门语言
+
+```Markdown
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
@@ -384,6 +455,10 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 谢谢！ :heart:
 
 ---
+
+```Markdown
+[![https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss](powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team\&utm_campaign=oss)
+```
 
 [![https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss](powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team\&utm_campaign=oss)
 
