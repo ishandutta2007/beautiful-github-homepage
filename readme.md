@@ -251,10 +251,10 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) tags to switch the theme based on the user GitHub theme automatically. This is done by appending `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of an image URL. This tag will define whether the image specified in the markdown is only shown to viewers using a light or a dark GitHub theme:
 
 ```md
-[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 
 ```md
@@ -267,7 +267,16 @@ You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-sp
 <details>
 <summary>:eyes: Show example</summary>
 
+```md
 [![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+```
+
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+
+```md
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
+```
+
 [![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
 
 </details>
