@@ -507,10 +507,10 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/gist?id=bbfce31e0217a3689c8d961a356cb10d`
 
 ```md
-[[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-[[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 
 ### Demo
