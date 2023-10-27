@@ -157,20 +157,20 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 > Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)(https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ### Showing icons
 
 To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ### Themes
 
@@ -179,10 +179,10 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `&theme=THEME_NAME` parameter like so :
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 #### All inbuilt themes
 
@@ -202,10 +202,11 @@ You can look at a preview for [all available themes](themes/README.md) or checko
 
 
 ```md
-[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-light-mode-only)
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#responsive-card-theme#gh-light-mode-only)
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
 
@@ -214,17 +215,16 @@ Since GitHub will re-upload the cards and serve them from their [CDN](https://do
 We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=transparent)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=transparent)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=transparent)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=transparent)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=transparent)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=transparent)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 </details>
 
@@ -236,17 +236,17 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&bg_color=00000000)
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&bg_color=00000000)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&bg_color=00000000)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 
 <details>
 <summary>:eyes: Show example</summary>
 
 ```md
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&bg_color=00000000)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&bg_color=00000000)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&bg_color=00000000)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&bg_color=00000000)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 </details>
 
@@ -262,26 +262,26 @@ You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-sp
 
 
 ```md
-[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 
 <details>
 <summary>:eyes: Show example</summary>
 
 ```md
-[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-dark-mode-only)
+[![Ishan's GitHub stats-Dark](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ```md
-[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage#gh-light-mode-only)
+[![Ishan's GitHub stats-Light](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 </details>
 
