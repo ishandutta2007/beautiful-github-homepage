@@ -477,13 +477,24 @@ Endpoint: `api/pin?username=ishandutta2007&repo=beautiful-github-homepage`
 [![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
+
 ### Demo
+
+```md
+![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007\&repo=beautiful-github-homepage)
+```
 
 ![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007\&repo=beautiful-github-homepage)
 
 Use [show\_owner](#repo-card-exclusive-options) query option to include the repo's owner username
 
-![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007\&repo=beautiful-github-homepage\&show_owner=true)
+```md
+[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007\&repo=beautiful-github-homepage\&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
+
+[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007\&repo=beautiful-github-homepage\&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 # GitHub Gist Pins
 
@@ -496,24 +507,27 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/gist?id=bbfce31e0217a3689c8d961a356cb10d`
 
 ```md
-[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
+[[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
+
+[[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### Demo
 
 ```md
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 Use [show\_owner](#gist-card-exclusive-options) query option to include the gist's owner username
 
 ```md
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
+[![Gist Card](https://beautiful-github-homepage.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 # Top Languages Card
 
