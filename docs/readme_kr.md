@@ -318,11 +318,23 @@ _참고:
 
 ### 미리보기
 
+```md
 [![Ishan 님의 wakatime 통계](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
+
+[![Ishan 님의 wakatime 통계](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
+```md
+[![Ishan 님의 wakatime 통계](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![Ishan 님의 wakatime 통계](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 컴팩트한 레이아웃
+
+```md
+[![Ishan 님의 wakatime 통계](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![Ishan 님의 wakatime 통계](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
@@ -336,13 +348,25 @@ _참고:
 
 - 특정 통계 내용 숨김
 
+```md
+![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
+```
+
 ![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
 
 - 아이콘 표시
 
+```md
+![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
+```
+
 ![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
 
 - 전체 커밋 포함 시
+
+```md
+![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
+```
 
 ![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
 
@@ -350,29 +374,57 @@ _참고:
 
 [내장 테마](#themes) 에서 직접 선택해보세요
 
+```md
+![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+```
+
 ![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 
 - 그라데이션 주기
+
+```md
+![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+```
 
 ![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - 통계 카드 커스터마이징하기
 
+```md
+![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+```
+
 ![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - 언어 사용 지역 설정하기
+
+```md
+![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&locale=kr)
+```
 
 ![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&locale=kr)
 
 - 저장소 핀 커스터마이징하기
 
+```md
+![Ishan 님의 GitHub 저장소 핀](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+```
+
 ![Ishan 님의 GitHub 저장소 핀](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - 언어 사용량 통계
 
+```md
+[![언어 사용량 통계](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
+
 [![언어 사용량 통계](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - WakaTime 카드
+
+```md
+[![Ishan 님의 WakaTime 카드](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![Ishan 님의 WakaTime 카드](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
