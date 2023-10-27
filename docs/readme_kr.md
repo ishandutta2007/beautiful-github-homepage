@@ -95,6 +95,9 @@
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
+
 _참고:_
 
 _랭크는 S+ (상위 1%), S (상위 25%), A++ (상위 45%), A+ (상위 60%), 그리고 B+ (전체) 로 구성되어 있습니다._
@@ -114,6 +117,9 @@ _[src/calculateRank.js](../src/calculateRank.js) 에서 수행되는 계산 작�
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
 ```
 
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,prs)
+
+
 ### 총 커밋 수에 비공개 기여도 (private contribs) 수 추가하기
 
 `?count_private=true` 속성을 추가하시면, 여러분의 모든 비공개 기여도까지 반영됩니다.
@@ -126,6 +132,9 @@ _참고: 프로젝트를 직접 배포하신 경우, 비공개 기여도는 기�
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&count_private=true)
 ```
 
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&count_private=true)
+
+
 ### 아이콘 표시하기
 
 아이콘 항목을 활성화 하기 위해선, 다음과 같이 `show_icons=true` 속성을 추가해주세요.
@@ -133,6 +142,9 @@ _참고: 프로젝트를 직접 배포하신 경우, 비공개 기여도는 기�
 ```md
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
 ```
+
+
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true)
 
 ### 테마 설정하기
 
@@ -143,6 +155,8 @@ _참고: 프로젝트를 직접 배포하신 경우, 비공개 기여도는 기�
 ```md
 ![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 ```
+
+![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
 
 #### 지원하는 내장 테마 목록
 
@@ -242,11 +256,21 @@ GitHub 저장소 여분 핀을 이용하면, 6개 이상의 저장소 핀을 여
 [![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Readme Card](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ### 미리보기
+
+```md
+[![GitHub 저장소 핀 카드](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![GitHub 저장소 핀 카드](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 [show_owner](#커스터마이징) 속성을 통해 저장소 소유자의 닉네임 표시 여부를 설정할 수 있어요.
+
+```md
+[![GitHub 저장소 핀 카드](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![GitHub 저장소 핀 카드](https://beautiful-github-homepage.vercel.app/api/pin/?username=ishandutta2007&repo=beautiful-github-homepage&show_owner=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
@@ -268,6 +292,9 @@ _참고:
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
+
 ### 통계에서 제외할 저장소 지정하기
 
 `?exclude_repo=repo1,repo2` 속성을 통해 특정 저장소를 제외할 수 있어요.
@@ -275,6 +302,9 @@ _참고:
 ```md
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
+
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&exclude_repo=beautiful-github-homepage,ishandutta2007.github.io)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ### 통계에서 특정 언어 제외하기
 
@@ -284,6 +314,9 @@ _참고:
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&hide=javascript,html)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
+
 ### 표시할 언어 수 지정하기
 
 `&langs_count=` 속성을 통해 카드에 표시할 언어의 수를 지정할 수 있어요. (1-10 사이, 기본 값 : 5)
@@ -291,6 +324,8 @@ _참고:
 ```md
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&langs_count=8)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
+
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&langs_count=8)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ### 컴택트한 카드 레이아웃 설정하기
 
@@ -300,11 +335,22 @@ _참고:
 [![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Top Langs](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
+
 ### 미리보기
+
+```md
+[![언어 사용량 통계](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![언어 사용량 통계](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 컴팩트한 레이아웃
+
+```md
+[![언어 사용량 통계](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
 
 [![언어 사용량 통계](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
@@ -316,6 +362,8 @@ _참고:
 [![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
+[![Ishan's WakaTime stats](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 ### 미리보기
 
 ```md
@@ -323,6 +371,7 @@ _참고:
 ```
 
 [![Ishan 님의 wakatime 통계](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs)](https://github.com/ishandutta2007/beautiful-github-homepage)
+
 
 ```md
 [![Ishan 님의 wakatime 통계](https://beautiful-github-homepage.vercel.app/api/wakatime?username=ffflabs&hide_progress=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
@@ -344,73 +393,77 @@ _참고:
 
 - 기본
 
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)
+```md
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
+```
+
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 특정 통계 내용 숨김
 
 ```md
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=contribs,issues)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 아이콘 표시
 
 ```md
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&hide=issues&show_icons=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 전체 커밋 포함 시
 
 ```md
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&include_all_commits=true)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 테마들
 
 [내장 테마](#themes) 에서 직접 선택해보세요
 
 ```md
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show_icons=true&theme=radical)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 그라데이션 주기
 
 ```md
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 통계 카드 커스터마이징하기
 
 ```md
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 언어 사용 지역 설정하기
 
 ```md
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&locale=kr)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&locale=kr)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&locale=kr)
+[![Ishan 님의 GitHub 사용량 통계](https://beautiful-github-homepage.vercel.app/api/?username=ishandutta2007&locale=kr)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 저장소 핀 커스터마이징하기
 
 ```md
-![Ishan 님의 GitHub 저장소 핀](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+[![Ishan 님의 GitHub 저장소 핀](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-![Ishan 님의 GitHub 저장소 핀](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+[![Ishan 님의 GitHub 저장소 핀](https://beautiful-github-homepage.vercel.app/api/pin?username=ishandutta2007&repo=beautiful-github-homepage&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 - 언어 사용량 통계
 
@@ -501,7 +554,7 @@ GitHub API 가 시간 당 요청 개수를 5,000회로 제한한 뒤로,
 
 ---
 
-[![https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss](../powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss)
+[[![https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss](../powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 프로젝트에 대한 기여는 언제나 환영이에요! <3
 
