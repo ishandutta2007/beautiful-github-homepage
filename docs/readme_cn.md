@@ -24,7 +24,7 @@
       </a>
       <br />
       <br />
-      <a href="https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss">
+      <a href="https://vercel.com?utm\_source=beautiful\_github\_homepage\_team\&utm\_campaign=oss">
           <img src="./powered-by-vercel.svg" />
       </a>
  </p>
@@ -457,10 +457,10 @@ _注意：热门语言并不表示我的技能水平或类似的水平，它是�
 ---
 
 ```Markdown
-[[![https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss](powered-by-vercel.svg)](https://vercel.com?utm_source=beautiful_github_homepage_team\&utm_campaign=oss)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[[![https://vercel.com?utm\_source=beautiful\_github\_homepage\_team\&utm\_campaign=oss](powered-by-vercel.svg)](https://vercel.com?utm_source=beautiful_github_homepage_team\&utm_campaign=oss)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-[[![https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss](powered-by-vercel.svg)](https://vercel.com?utm_source=beautiful_github_homepage_team\&utm_campaign=oss)](https://github.com/ishandutta2007/beautiful-github-homepage)
+[[![https://vercel.com?utm\_source=beautiful\_github\_homepage\_team\&utm\_campaign=oss](powered-by-vercel.svg)](https://vercel.com?utm_source=beautiful_github_homepage_team\&utm_campaign=oss)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 欢迎贡献！ <3
 
