@@ -1036,14 +1036,10 @@ However, if you are using this project and are happy with it or just want to enc
 
 *   Giving proper credit when you use beautiful-github-homepage on your readme, linking back to it :D
 *   Starring and sharing the project :rocket:
-*   [![paypal.me/ishandutta2007](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/ishandutta2007) - You can [Sponsor](https://github.com/sponsors/ishandutta2007) or make one-time donations via PayPal.
+*   You can [Sponsor](https://github.com/sponsors/ishandutta2007) or make one-time donations via [![paypal.me/ishandutta2007](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/ishandutta2007) or if you can't do either as a bare minimum star this repo and follow me as a means to thank me.
 
 Thanks! :heart:
 
 ***
 
-[![https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss](powered-by-vercel.svg)](https://vercel.com?utm_source=beautiful_github_homepage_team\&utm_campaign=oss)
-
 Contributions are welcome! <3
-
-Made with :heart: and JavaScript.
