@@ -116,7 +116,7 @@
 <img alt="Uptime Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fbeautiful-github-homepage-git-monitoring-beautiful-github-homepage-team.vercel.app%2Fapi%2Fstatus%2Fup%3Ftype%3Dshields">
 
 > [!IMPORTANT]\
-> We're a small team, and to prioritize, we rely on upvotes :+1:. We use Top issues dashboard for tracking community demand (see [#1935](https://github.com/ishandutta2007/beautiful-github-homepage/issues/1935)). Do not hesitate to upvote the issues and pull requests you are interested in. We will work on the most upvoted first.
+> We're a small team, and to prioritize, we rely on upvotes :+1:. We use Top issues dashboard for tracking community demand . Do not hesitate to upvote the issues and pull requests you are interested in. We will work on the most upvoted first.
 
 # GitHub Stats Card
 
@@ -338,7 +338,7 @@ You can customize the appearance of all your cards however you wish with URL par
 *   `border_radius` - Corner rounding on the card. Default: `4.5`.
 
 > [!WARNING]\
-> We use caching to decrease the load on our servers (see <https://github.com/ishandutta2007/beautiful-github-homepage/issues/1471#issuecomment-1271551425>). Our cards have a default cache of 6 hours (21600 seconds). Also, note that the cache is clamped to a minimum of 6 hours and a maximum of 24 hours. If you want the data on your statistics card to be updated more often you can [deploy your own instance](#deploy-on-your-own) and set [environment variable](#disable-rate-limit-protections) `CACHE_SECONDS` to a value of your choosing.
+> We use caching to decrease the load on our servers . Our cards have a default cache of 6 hours (21600 seconds). Also, note that the cache is clamped to a minimum of 6 hours and a maximum of 24 hours. If you want the data on your statistics card to be updated more often you can [deploy your own instance](#deploy-on-your-own) and set [environment variable](#disable-rate-limit-protections) `CACHE_SECONDS` to a value of your choosing.
 
 ##### Gradient in bg\_color
 
@@ -543,7 +543,7 @@ The top languages card shows a GitHub user's most frequently used languages.
 > This card shows languages usage only inside your own non-forked repositories, not depending from who is the author of the commits. It does not include your contributions into another users/organizations repositories. Currently there are no way to get this data from GitHub API. If you want this behavior to be improved you can support [this feature request](https://github.com/orgs/community/discussions/18230) created by [@rickstaa](https://github.com/rickstaa) inside GitHub Community.
 
 > [!WARNING]\
-> Currently this card shows data only about first 100 repositories. This is because GitHub API limitations which cause downtimes of public instance (see [#1471](https://github.com/ishandutta2007/beautiful-github-homepage/issues/1471)). In future this behavior will be improved by releasing GitHub action or providing environment variable for user's own instances.
+> Currently this card shows data only about first 100 repositories. This is because GitHub API limitations which cause downtimes of public instance . In future this behavior will be improved by releasing GitHub action or providing environment variable for user's own instances.
 
 ### Usage
 
