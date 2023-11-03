@@ -4,7 +4,7 @@ set -e
 
 export BRANCH_NAME=updated-theme-readme
 git --version
-git config --global user.email "no-reply@githubreadmestats.com"
+git config --global user.email "no-reply@beautifulgithubhomepage.com"
 git config --global user.name "Beautiful Github Homepage Bot"
 git config --global --add safe.directory ${GITHUB_WORKSPACE}
 git branch -d $BRANCH_NAME || true
