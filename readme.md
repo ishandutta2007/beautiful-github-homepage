@@ -1036,7 +1036,7 @@ However, if you are using this project and are happy with it or just want to enc
 
 *   Giving proper credit when you use beautiful-github-homepage on your readme, linking back to it :D
 *   Starring and sharing the project :rocket:
-*   [![paypal.me/ishandutta2007](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/ishandutta2007) - You can [Sponsor](https://github.com/sponsors/ishandutta2007) or make one-time donations via PayPal.
+*   You can [Sponsor](https://github.com/sponsors/ishandutta2007) or make one-time donations via [![paypal.me/ishandutta2007](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/ishandutta2007) or if you can't do either as a bare minimum star this repo and follow me as a means to thank me.
 
 Thanks! :heart:
 
