@@ -160,7 +160,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 [![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 ```
 
-[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)(https://github.com/ishandutta2007/beautiful-github-homepage)
+[![Ishan's GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=ishandutta2007&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/ishandutta2007/beautiful-github-homepage)
 
 ### Showing icons
 
