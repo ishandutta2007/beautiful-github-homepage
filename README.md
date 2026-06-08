@@ -24,9 +24,8 @@
       </a>
       <br />
       <br />
-      <a href="https://vercel.com?utm\_source=beautiful\_github\_homepage\_team\&utm\_campaign=oss">
-          <img src="./powered-by-vercel.svg" />
-      </a>
+      <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
   </p>
 
   <p align="center">
