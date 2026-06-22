@@ -10,7 +10,7 @@ jobs:
     if: github.repository == 'ishandutta2007/beautiful-github-homepage'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
       - name: Deployment Prep
         run: python ./.github/workflows/deploy-prep.py
       - uses: stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d # v5.0.0
